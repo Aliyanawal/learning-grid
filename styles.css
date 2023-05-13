@@ -1,0 +1,56 @@
+.grid-one{
+    grid-area: one;
+    background-color: violet;
+    color: white;
+    padding: 20px;
+    
+}
+
+.grid-two{
+    grid-area: two;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+  
+}
+.grid-three{
+    grid-area:three;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.grid-four{
+    grid-area:four; 
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.grid-five{
+    grid-area:five; 
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.all{
+    background-color: rgb(204, 232, 233);
+    display: grid;
+    grid-template-areas: 
+                "one one two three"
+                "four five five three";
+                padding-left: 10%;
+                padding-right: 10%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+}
+                
+                
+                
+                
+                
+                
+                
+   
+              
