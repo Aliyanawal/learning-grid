@@ -1,22 +1,27 @@
+body{
+    font-family: sans-serif;
+    font-weight: 500,600;
+}
 .grid-one{
     grid-area: one;
-    background-color: violet;
+    background-color: hsl(263, 55%, 52%);
     color: white;
     padding: 20px;
+    background-image: url(./images/bg-pattern-quotation.svg);
     
 }
 
 .grid-two{
     grid-area: two;
-    background-color: gray;
+    background-color: hsl(217, 19%, 35%);
     color: white;
     padding: 20px;
   
 }
 .grid-three{
     grid-area:three;
-    background-color: white;
-    color: black;
+    background-color:white;
+    color: black; 
     padding: 20px;
 }
 
@@ -29,13 +34,13 @@
 
 .grid-five{
     grid-area:five; 
-    background-color: black;
+    background-color: hsl(219, 29%, 14%);
     color: white;
     padding: 20px;
 }
 
 .all{
-    background-color: rgb(204, 232, 233);
+    background-color: hsl(210, 46%, 95%);
     display: grid;
     grid-template-areas: 
                 "one one two three"
@@ -45,7 +50,19 @@
                 padding-top: 5%;
                 padding-bottom: 5%;
 }
-                
+.profile{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.image{
+    border-radius: 50%;
+}
+
+ h2{
+
+       }         
                 
                 
                 
